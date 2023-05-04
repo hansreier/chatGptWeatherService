@@ -47,6 +47,6 @@ public class TestWeatherService {
 
     @Test
     public void simpletest() {
-        System.out.println();
+        System.out.println("Hei");
     }
 }

@@ -24,4 +24,5 @@ public class WeatherServiceApplication {
         String result = restTemplate.getForObject(url, String.class);
         System.out.println(result);
     }
+
 }

@@ -21,7 +21,7 @@ public class WeatherServiceApplication {
         return builder.build();
     }
 
-    @GetMapping("/") //Forgotten by ChatGPT
+    @GetMapping("/met") //Forgotten by ChatGPT
     public void getWeather() {
         System.out.println("Hei");
         String url = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=59.911491&lon=10.757933";
